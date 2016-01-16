@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.brilliantbear.putdownthephone.Activity.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:fitsSystemWindows="true"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+
+    <com.brilliantbear.putdownthephone.view.SettingItemView
+        android:id="@+id/siv_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:item_title="选择模式"/>
+
+    <com.brilliantbear.putdownthephone.view.SettingItemView
+        android:id="@+id/siv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:item_desc="获得授权后需取消才能正常卸载本应用"
+        app:item_title="取消设备管理授权"/>
+
+    <com.brilliantbear.putdownthephone.view.SettingItemView
+        android:id="@+id/siv_app_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:item_desc="点击设置需要锁定的应用"
+        app:item_title="应用锁"/>
+
+    <com.brilliantbear.putdownthephone.view.SettingItemView
+        android:id="@+id/siv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:item_title="控制时间"/>
+
+
+    <com.brilliantbear.putdownthephone.view.SettingItemView
+        android:id="@+id/siv_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:item_desc="提交Bug或建议"
+        app:item_title="反馈"/>
+
+
+
+    <com.brilliantbear.putdownthephone.view.SettingItemView
+        android:id="@+id/siv_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:item_desc="获取使用帮助"
+        app:item_title="帮助"/>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/action_settings"
+        />
+
+    <item
+        android:id="@+id/action_applock"
+        android:icon="@drawable/lock"
+        android:title="@string/action_applock"
+        />
+    <item
+        android:id="@+id/action_feedback"
+        android:icon="@drawable/feedback"
+        android:title="@string/action_feedback"
+        />
+    <!--<item-->
+        <!--android:id="@+id/action_praise"-->
+        <!--android:icon="@drawable/praise"-->
+        <!--android:title="@string/action_praise"-->
+        <!--/>-->
+    <!--<item-->
+        <!--android:id="@+id/action_support"-->
+        <!--android:icon="@drawable/dollar"-->
+        <!--android:title="@string/action_support"-->
+        <!--/>-->
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/help"
+        android:title="@string/action_help"
+        />
+</menu>

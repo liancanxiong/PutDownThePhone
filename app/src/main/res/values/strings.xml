@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">放下手机</string>
+    <string name="action_settings">设置</string>
+    <string name="action_applock">应用锁</string>
+    <string name="action_feedback">反馈</string>
+    <string name="action_praise">给个好评</string>
+    <string name="action_support">赞助</string>
+    <string name="action_help">使用帮助</string>
+    <string name="drawer_open">DrawerOpen</string>
+    <string name="drawer_close">DrawerClose</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="active_message">未激活设备管理器，无法使用锁屏控制，是否去激活？（激活后可在设置中取消激活)</string>
+    <string name="empty_message">已选择为应用锁模式，但是当前没有应用被锁定，请添加应用或设置为锁屏模式</string>
+    <string name="feedback">感谢您使用本应用，如果有Bug或者其他问题反馈，欢迎邮件至：liancanxiong@hotmail.com</string>
+    <string name="help"><![CDATA[<h2>欢迎使用本应用</h2><div>首先点击左上角图标或在侧边向右滑动进入侧边菜单，在菜单中进入设置选项<br>设置控制模式，锁屏模式是在控制时间内禁止点亮屏幕，应用锁模式是在控制时间内禁止打开选定的应用(点击应用锁条目设置)。<br>由于在Android 5.0后，Google弃用了某些API，所以应用锁模式在Android 5.0后的版本可能会失效，所以建议使用锁屏模式。<br>锁屏模式需要激活设备管理器才能正常运行，激活后需要取消激活才能正常卸载(在设置中取消激活)。<br><h2>再次感谢您的使用</h2></div>]]></string>
+</resources>
